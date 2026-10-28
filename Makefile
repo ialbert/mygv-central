@@ -1,6 +1,5 @@
 
 # Human gencode
-
 # FASTA_URL=https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/GRCh38.p14.genome.fa.gz
 # GFF_URL=https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.basic.annotation.gff3.gz
 
@@ -31,3 +30,15 @@ gff: $(GFF)
 
 fasta: $(FASTA)
 	ls -lh $(FASTA)
+
+genomes: fasta gff
+
+# Build Python package.
+build:
+	rm -rf build dist
+	uv build
+	ls -lh dist
+
+# Publish the package
+publish: build
+	uv publish
