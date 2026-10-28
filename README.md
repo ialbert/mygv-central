@@ -3,7 +3,7 @@
 
 `myGV` the little genome browser that could.
 
-![](https://github.com/ialbert/mygv-central/blob/main/docs/myGV-genomic-steam-engine.png)
+![myGV logo](https://github.com/ialbert/mygv-central/blob/main/docs/myGV-genomic-steam-engine.png)
 
 ## What is myGV?
 
@@ -49,7 +49,10 @@ mygv browse \
     --gff genome_annotations.gff
 ```
 
-![]
+![myGV screenshot][screenshot1]
+
+[screenshot1]: https://github.com/ialbert/mygv-central/blob/main/docs/images/mygv-example-1.jpg?raw=true
+
 Enjoy!
 
 
