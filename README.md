@@ -49,6 +49,8 @@ mygv browse \
     --gff genome_annotations.gff
 ```
 
+Currently it looks like this - visualizing the Streptococcus Aurelius genome:
+
 ![myGV screenshot][screenshot1]
 
 [screenshot1]: https://github.com/ialbert/mygv-central/blob/main/docs/images/mygv-example-1.jpg?raw=true
