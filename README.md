@@ -49,6 +49,7 @@ mygv browse \
     --gff genome_annotations.gff
 ```
 
+![]
 Enjoy!
 
 
