@@ -1,0 +1,27 @@
+{
+  "DRAW_LIMIT": 100000,
+  "MIN_SPAN": 40,
+  "LABEL_PX": 24,
+  "GLYPH_PX": 2,
+  "PAN_PART": 8,
+  "ZOOM": 2,
+  "TICK_PX": 80,
+  "LOCUS_SPAN": 500,
+  "COLORS": {
+    "INK": "#222222",
+    "LIGHT_INK": "#94948f",
+    "PAPER": "#f4f4f2",
+    "LINE": "#d8d8d4",
+    "WHITE": "#ffffff",
+    "PLUS": "#e7a3a3",
+    "MINUS": "#9ec0e0",
+    "OTHER": "#7f7f7f",
+    "WASH": 72,
+    "BASE": {
+      "A": "#2ca02c",
+      "C": "#1f77b4",
+      "G": "#e6a817",
+      "T": "#d62728"
+    }
+  }
+}

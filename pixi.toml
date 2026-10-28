@@ -1,0 +1,21 @@
+[workspace]
+authors = ["Istvan Albert <istvan.albert@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "mygv"
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+browse = "mygv browse"
+
+[dependencies]
+python = "3.12.*"
+wget = ">=1.25.0,<2"
+unzip = ">=6.0,<7"
+pip = ">=26.2.1,<27"
+samtools = ">=1.24,<2"
+make = ">=4.4.1,<5"
+pyside6 = ">=6.6,<7"
+
+[pypi-dependencies]
+mygv = { path = ".", editable = true }
